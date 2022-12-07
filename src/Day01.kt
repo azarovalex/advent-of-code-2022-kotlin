@@ -17,7 +17,7 @@ fun main() {
         return groupLines(input)
             .sortedDescending()
             .take(3)
-            .reduce { a, b -> a + b }
+            .sum()
     }
 
     val input = readInput("Day01")
